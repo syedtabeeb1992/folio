@@ -1,71 +1,103 @@
 .about-txt span {
- font-weight: bold;
+  font-weight: bold;
 }
 
-
 .about-inner-wrap {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .title-section {
-    margin-top: 30px;
-    margin-bottom: 30px;;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.about-txt p{
-    line-height: 30px;
-    letter-spacing: 1px;
-    text-align: justify;
-    font-size: 18px;
-    font-family: 'Inter', sans-serif;
+.about-txt p {
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
 }
-.about-txt{flex: 1;padding-top: 5%;}
+.about-txt {
+  flex: 1;
+  padding-top: 1%;
+}
 
 .about-img {
-    flex: 1 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.about-img img {}
+.about-img img {
+}
 
 .downloadcv a {
-    background: #FFC120;
-    color: #ffffff;
-    display: block;
-    text-align: center;
-    font-size: 28px;
-    text-decoration: none;
-    padding: 10px 0px;
-    opacity: 0.6;
-    margin: auto;
-    width: 401px;
-    border-radius: 10px;
-    margin-top: 40px;
+  background: #ffc120;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  text-decoration: none;
+  padding: 10px 0px;
+  opacity: 0.6;
+  margin: auto;
+  width: 401px;
+  border-radius: 10px;
+  margin-top: 40px;
 }
-
 
 .downloadcv a:hover {
-    opacity: 1;  
+  opacity: 1;
 }
 
+.skills-wrapper h2 {
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.w3-light-grey{
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+}
+
+.w3-green{
+    color: #fff !important;
+    background-color: #4CAF50 !important;
+    height:24px;
+  }
 
 
-@media (min-width:300px) and (max-width:900px) { 
-    .about-txt p {
-        text-align: left;
-    }
-    .about-img {
-        display: none;
-    }
+  .skills-inner-wrapper {
+    display: flex;
+    margin-top: 30px;;
+  }
 
-    .about-inner-wrap {
-        flex-direction: column;
-    }
+  .skill-name {
+    flex: 0.5 1;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
 
-    .downloadcv a {
-        width: 80%;
-    }
+  .skill-level{
+      flex:1
+  }
+@media (min-width: 300px) and (max-width: 900px) {
+  .about-txt p {
+    text-align: left;
+  }
+  .about-img {
+    display: none;
+  }
+
+  .about-inner-wrap {
+    flex-direction: column;
+  }
+
+  .downloadcv a {
+    width: 80%;
+  }
 }

@@ -4,7 +4,7 @@ import "./About.css";
 import about from "../../assests/images/abbout.png";
 
 import cv from "../../assests/Resumene.pdf";
-
+import SkillComponent from "./SkillComponent";
 
 const About = () => {
   return (
@@ -16,39 +16,57 @@ const About = () => {
           <div className="about-txt">
             <p>
               Hey, I am <span className="primary-color">Tabeeb</span>, front-end
-              web developer with over 
-              <span className="primary-color">   7 of experience. </span>
-              I've worked with startups like  <span className="primary-color"> Bounce, Healthcaremagic </span>
+              web developer with over
+              <span className="primary-color"> 7 of experience. </span>
+              I've worked with startups like{" "}
+              <span className="primary-color"> Bounce, Healthcaremagic </span>
               etc. was a part of a Racing Team, Raced bikes, played the shit out
-              of <span className="primary-color"> Dota 2 and countrestrike </span> 
-              , Built a youtube channel and screwed it up. I guess I like to
-              stay active.
+              of{" "}
+              <span className="primary-color"> Dota 2 and countrestrike </span>,
+              Built a youtube channel and screwed it up. I guess I like to stay
+              active.
             </p>
 
             <p>
               Although I'm very familiar with using frameworks, my websites are
-              primarily <span className="primary-color"> hand-coded </span> using
-              HTML5, CSS3, SVG & JavaScript and mostly designed using
+              primarily <span className="primary-color"> hand-coded </span>{" "}
+              using HTML5, CSS3, SVG & JavaScript and mostly designed using
               <span className="primary-color"> Figma </span>, love working with
               <span className="primary-color"> React </span> and other hip
               frameworks
             </p>
             <p>If you fancy a chat feel free to drop me a line.</p>
 
+            <div className="skills-wrapper">
+              <h2 className="primary-color"> My Skills</h2>
 
-              <div className="downloadcv">
-                <a href={cv} target="_blank">DOWNLOAD CV</a>
-              </div>
-            
+              <SkillComponent skill="HTML" level="95%" />
+              <SkillComponent skill="CSS" level="95%" />
+              <SkillComponent skill="JAVASCRIPT" level="90%" />
+              <SkillComponent skill="REACT" level="70%" />
+              <SkillComponent skill="BOOTSTRAP" level="95%" />
+              <SkillComponent skill="CSS FLEXBOX" level="95%" />
+              <SkillComponent skill="CSS GRID" level="95%" />
+
+              <SkillComponent skill="FIGMA" level="45%" />
+              <SkillComponent skill="GIT" level="95%" />    
+              
+              <SkillComponent skill="JQUERY" level="80%" /> 
+              <SkillComponent skill="WEBFLOW" level="50%" />  
+
+                      </div>
+
+            <div className="downloadcv">
+              <a href={cv} target="_blank">
+                DOWNLOAD CV
+              </a>
+            </div>
           </div>
 
           <div className="about-img">
             <img src={about} />
           </div>
         </div>
-
-
-
 
         <div className="title-section">&#60; / about &#62;</div>
       </div>
