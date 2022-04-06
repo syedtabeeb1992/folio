@@ -18,11 +18,7 @@ const About = () => {
               Hey, I am <span className="primary-color">Tabeeb</span>, front-end
               web developer with over 
               <span className="primary-color">   7 of experience. </span>
-              I've worked with startups like 
-              <span className="primary-color">
-       
-                 Bounce, Healthcaremagic
-              </span>
+              I've worked with startups like  <span className="primary-color"> Bounce, Healthcaremagic </span>
               etc. was a part of a Racing Team, Raced bikes, played the shit out
               of <span className="primary-color"> Dota 2 and countrestrike </span> 
               , Built a youtube channel and screwed it up. I guess I like to

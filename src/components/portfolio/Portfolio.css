@@ -50,3 +50,16 @@
     transition:  letter-spacing 1s;
     letter-spacing: 15px;
 }
+
+
+
+@media (min-width:500px) and (max-width:900px) {
+    .portfolio {
+        width: 50%;}
+}
+
+@media (min-width:300px) and (max-width:499px) {
+
+    .portfolio {
+        width: 100%;}
+ }

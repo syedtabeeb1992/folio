@@ -5,8 +5,6 @@ import "./Header.css";
 const Header = () => {
   const [slide, setSlide] = useState(false);
 
-
-
   const onSlideHandler = () => {
     setSlide(!slide);
   };
@@ -30,22 +28,22 @@ const Header = () => {
         </div>
         <div className={`nav-links-wrapper ${slide ? "width-clicked" : ""}`}>
           <div className="nav-link active" >
-                <a href="#hero"> HOME </a>
+                <a href="#hero" onClick={onSlideHandler}> HOME </a>
           </div>
           <div className="nav-link">
-            <a href="#about">ABOUT</a>
+            <a href="#about" onClick={onSlideHandler}>ABOUT</a>
           </div>
           <div className="nav-link">
-            <a href="#exp">EXPERIENCE</a>
+            <a href="#exp" onClick={onSlideHandler}>EXPERIENCE</a>
           </div>
           <div className="nav-link">
-            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#portfolio" onClick={onSlideHandler}>PORTFOLIO</a>
           </div>
           {/* <div className="nav-link">
             <span>BLOG</span>
           </div> */}
           <div className="nav-link">
-            <a href="#contact">CONTACT</a>
+            <a href="#contact" onClick={onSlideHandler}>CONTACT</a>
           </div>
         </div>
       </div>

@@ -54,7 +54,9 @@
 
 
 @media (min-width:300px) and (max-width:900px) { 
-
+    .about-txt p {
+        text-align: left;
+    }
     .about-img {
         display: none;
     }
