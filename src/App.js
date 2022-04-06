@@ -1,11 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
+import Experience from "./components/experience/Experience";
+import Header from "./components/header/Header";
+import Herosection from "./components/hero-section/Herosection";
+import Portfolio from "./components/portfolio/Portfolio";
+
+import Container from "./components/UI/Container";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Header></Header>
 
-          <h1>Hello HEY</h1>
+      <Herosection></Herosection>
+      <About></About>
+      <Experience></Experience>
+      <Portfolio></Portfolio>
+
+      <Contact></Contact>
     </div>
   );
 }
