@@ -40,19 +40,19 @@ const About = () => {
             <div className="skills-wrapper">
               <h2 className="primary-color"> My Skills</h2>
 
-              <SkillComponent skill="HTML" level="95%" />
-              <SkillComponent skill="CSS" level="95%" />
-              <SkillComponent skill="JAVASCRIPT" level="90%" />
-              <SkillComponent skill="REACT" level="70%" />
-              <SkillComponent skill="BOOTSTRAP" level="95%" />
-              <SkillComponent skill="CSS FLEXBOX" level="95%" />
-              <SkillComponent skill="CSS GRID" level="95%" />
+              <SkillComponent skill="HTML" level="95%"  color="green"/>
+              <SkillComponent skill="CSS" level="95%" color="green" />
+              <SkillComponent skill="JAVASCRIPT" level="90%"  color="green"/>
+              <SkillComponent skill="REACT" level="70%" color="#1f37a9" />
+              <SkillComponent skill="BOOTSTRAP" level="95%" color="green" />
+              <SkillComponent skill="CSS FLEXBOX" level="95%"  color="green"/>
+              <SkillComponent skill="CSS GRID" level="95%" color="green" />
 
-              <SkillComponent skill="FIGMA" level="45%" />
-              <SkillComponent skill="GIT" level="95%" />    
+              <SkillComponent skill="FIGMA" level="45%"  color="#de79ff"/>
+              <SkillComponent skill="GIT" level="95%" color="green" />    
               
-              <SkillComponent skill="JQUERY" level="80%" /> 
-              <SkillComponent skill="WEBFLOW" level="50%" />  
+              <SkillComponent skill="JQUERY" level="80%"  color="#1f37a9"/> 
+              <SkillComponent skill="WEBFLOW" level="50%" color="#de79ff"/>  
 
                       </div>
 

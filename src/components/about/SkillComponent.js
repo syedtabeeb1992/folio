@@ -6,7 +6,7 @@ const SkillComponent = (props) => {
       <div className="skill-name">{props.skill}</div>
       <div className="skill-level">
         <div class="w3-light-grey">
-          <div class="w3-green" style={{ width: props.level }}></div>
+          <div class="w3-green" style={{ width: props.level, backgroundColor: props.color } }></div>
         </div>
       </div>
     </div>
