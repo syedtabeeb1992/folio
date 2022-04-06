@@ -26,23 +26,23 @@ const Herosection = () => {
 
         <div className="socioicons">
           <div className="icons-socio">
-            <a href="#">
+            <a href="https://www.instagram.com/tabeeb92/" target="_blank">
               <FaInstagram />
             </a>
           </div>
           <div className="icons-socio">
-            <a href="#">
+            <a href="https://github.com/syedtabeeb1992/" target="_blank">
               <FaGithub />
             </a>
           </div>
           <div className="icons-socio">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/syed-tabeeb/" target="_blank">
               <FaLinkedinIn />
             </a>
           </div>
 
           <div className="icons-socio">
-            <a href="#">
+            <a href="https://www.youtube.com/user/syedtabeeb" target="_blank">
               <FaYoutubeSquare />
             </a>
           </div>
