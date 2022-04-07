@@ -12,7 +12,7 @@ const Experience = () => {
   return (
     <section className="box-shadow-beeb exp-container " id="exp">
       <div className="container">
-        <div className="title-section">&#60; Work Experiance &#62;</div>
+        <div className="title-section">&#60; Work Experience &#62;</div>
 
         <div className="mid-exp">
           <div className="lineimg">
@@ -65,7 +65,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="title-section">&#60; / Work Experiance &#62;</div>
+        <div className="title-section">&#60; / Work Experience &#62;</div>
       </div>
     </section>
   );

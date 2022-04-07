@@ -15,46 +15,48 @@ const About = () => {
         <div className="about-inner-wrap">
           <div className="about-txt">
             <p>
-              Hey, I am <span className="primary-color">Tabeeb</span>, front-end
-              web developer with over
-              <span className="primary-color"> 7 of experience. </span>
+              Hey, I am <span className="primary-color">Tabeeb</span>, a
+              front-end web developer with over
+              <span className="primary-color"> 7 years of experience. </span>
               I've worked with startups like{" "}
-              <span className="primary-color"> Bounce, Healthcaremagic </span>
-              etc. was a part of a Racing Team, Raced bikes, played the shit out
-              of{" "}
-              <span className="primary-color"> Dota 2 and countrestrike </span>,
-              Built a youtube channel and screwed it up. I guess I like to stay
-              active.
+              <span className="primary-color">
+                Bounce, Healthcaremagic and GlowRoad. &nbsp;
+              </span>               
             </p>
 
+
+            <p> I was also a part of a racing team and successfully able to bring together a bunch of petrol heads together. 
+              I have  raced bikes, won trophies,  have put in considerably high number of playtime in
+              <span className="primary-color"> Dota2 and CountreStrike </span>,
+              started a youtube channel and screwed it up abd countless more endeavours that list could take a while. I guess, I like to stay
+              active.</p>
+
             <p>
-              Although I'm very familiar with using frameworks, my websites are
-              primarily <span className="primary-color"> hand-coded </span>{" "}
-              using HTML5, CSS3, SVG & JavaScript and mostly designed using
-              <span className="primary-color"> Figma </span>, love working with
+              My        projects are developed 
+              using   <span className="primary-color">HTML5, CSS3, SVG & JavaScript.</span> They are  mostly designed using
+              <span className="primary-color"> Figma </span> and I also  love working with
               <span className="primary-color"> React </span> and other hip
-              frameworks
+              frameworks.
             </p>
-            <p>If you fancy a chat feel free to drop me a line.</p>
+            <p>If you fancy a chat, feel free to drop me a line.</p>
 
             <div className="skills-wrapper">
               <h2 className="primary-color"> My Skills</h2>
 
-              <SkillComponent skill="HTML" level="95%"  color="green"/>
+              <SkillComponent skill="HTML" level="95%" color="green" />
               <SkillComponent skill="CSS" level="95%" color="green" />
-              <SkillComponent skill="JAVASCRIPT" level="90%"  color="green"/>
+              <SkillComponent skill="JAVASCRIPT" level="90%" color="green" />
               <SkillComponent skill="REACT" level="70%" color="#1f37a9" />
               <SkillComponent skill="BOOTSTRAP" level="95%" color="green" />
-              <SkillComponent skill="CSS FLEXBOX" level="95%"  color="green"/>
+              <SkillComponent skill="CSS FLEXBOX" level="95%" color="green" />
               <SkillComponent skill="CSS GRID" level="95%" color="green" />
 
-              <SkillComponent skill="FIGMA" level="45%"  color="#de79ff"/>
-              <SkillComponent skill="GIT" level="95%" color="green" />    
-              
-              <SkillComponent skill="JQUERY" level="80%"  color="#1f37a9"/> 
-              <SkillComponent skill="WEBFLOW" level="50%" color="#de79ff"/>  
+              <SkillComponent skill="FIGMA" level="45%" color="#de79ff" />
+              <SkillComponent skill="GIT" level="95%" color="green" />
 
-                      </div>
+              <SkillComponent skill="JQUERY" level="80%" color="#1f37a9" />
+              <SkillComponent skill="WEBFLOW" level="50%" color="#de79ff" />
+            </div>
 
             <div className="downloadcv">
               <a href={cv} target="_blank">
