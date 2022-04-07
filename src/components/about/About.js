@@ -25,10 +25,10 @@ const About = () => {
             </p>
 
 
-            <p> I was also a part of a racing team and successfully able to bring together a bunch of petrol heads together. 
+            <p> I was also a part of a racing team and was  successfully able to bring together a bunch of petrol heads. 
               I have  raced bikes, won trophies,  have put in considerably high number of playtime in
               <span className="primary-color"> Dota2 and CountreStrike </span>,
-              started a youtube channel and screwed it up abd countless more endeavours that list could take a while. I guess, I like to stay
+              started a youtube channel and screwed it up and countless more endeavors  that list could take a while. I guess, I like to stay
               active.</p>
 
             <p>

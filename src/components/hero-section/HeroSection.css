@@ -25,6 +25,10 @@
   width: 300px;
 }
 
+.mar-top {
+  margin-top: 100px;
+}
+
 /* .hero-title:before {
   content: "<p>";
   font-family: "La Belle Aurore", cursive;

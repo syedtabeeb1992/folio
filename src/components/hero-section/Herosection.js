@@ -14,8 +14,8 @@ import {
 
 const Herosection = () => {
   return (
-    <div className="box-shadow-beeb" id="hero">
-      <div className="container">
+    <div className="box-shadow-beeb " id="hero">
+      <div className="container mar-top">
       <div className="img-wrapper">
         <img src={dp} />
       </div>

@@ -9,6 +9,19 @@ const Header = () => {
     setSlide(!slide);
   };
 
+  const kk = (e) => {
+
+    e.preventDefault();
+    setSlide(!slide);
+    const target = e.target.getAttribute("href");
+    const location = document.querySelector(target).offsetTop
+    console.log(location)
+    window.scrollTo({
+      left:0,
+      top:location - 70,
+    })
+  };
+
   const backdrop = <div className="backdrop" onClick={onSlideHandler}></div>;
 
   return (
@@ -27,23 +40,34 @@ const Header = () => {
           <FaBars />
         </div>
         <div className={`nav-links-wrapper ${slide ? "width-clicked" : ""}`}>
-          <div className="nav-link active" >
-                <a href="#hero" onClick={onSlideHandler}> HOME </a>
+          <div className="nav-link active">
+            <a href="#hero" onClick={kk}>
+       
+              HOME{" "}
+            </a>
           </div>
           <div className="nav-link">
-            <a href="#about" onClick={onSlideHandler}>ABOUT</a>
+            <a href="#about" onClick={kk}>
+              ABOUT
+            </a>
           </div>
           <div className="nav-link">
-            <a href="#exp" onClick={onSlideHandler}>EXPERIENCE</a>
+            <a href="#exp" onClick={kk}>
+              EXPERIENCE
+            </a>
           </div>
           <div className="nav-link">
-            <a href="#portfolio" onClick={onSlideHandler}>PORTFOLIO</a>
+            <a href="#portfolio" onClick={kk}>
+              PORTFOLIO
+            </a>
           </div>
           {/* <div className="nav-link">
             <span>BLOG</span>
           </div> */}
           <div className="nav-link">
-            <a href="#contact" onClick={onSlideHandler}>CONTACT</a>
+            <a href="#contact" onClick={kk}>
+              CONTACT
+            </a>
           </div>
         </div>
       </div>

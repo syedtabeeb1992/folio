@@ -8,6 +8,10 @@
 header {
   display: flex;
   font-family: "Montserrat", sans-serif;
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+  z-index: 2;
 }
 
 .logo-container {
@@ -62,11 +66,13 @@ header a {
     z-index: 100;
     transition: width 1s;
     padding-top: 33px;
+    height: 100vh;  
   }
   .width-clicked {
     transition: width 1s;
     width: 50%;
     border-left: 2px solid #ffb800;
+    height: 100vh;  
   }
 
   .nav-links-wrapper .nav-link {

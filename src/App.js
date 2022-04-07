@@ -1,4 +1,6 @@
-import React from "react";
+import React, {componentWillUnmount} from "react";
+
+
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Experience from "./components/experience/Experience";
@@ -9,8 +11,14 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Container from "./components/UI/Container";
 
 function App() {
+
+
   return (
-    <div>
+    
+    <div id="home">
+      
+    
+
       <Header></Header>
 
       <Herosection></Herosection>
@@ -19,6 +27,9 @@ function App() {
       <Portfolio></Portfolio>
 
       <Contact></Contact>
+
+
+      <section className="rest"></section>
     </div>
   );
 }
