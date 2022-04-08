@@ -21,10 +21,12 @@ body {
 
 
 .box-shadow-beeb {
-
   border-bottom: 1px solid grey;
-  
   padding: 15px 0px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 4px 8px -6px black;
+  margin-top: 0px;
 }
 .flex{
   display: flex;
