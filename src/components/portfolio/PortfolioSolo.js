@@ -3,7 +3,7 @@ import React from "react";
 const PortfolioSolo = (props) => {
   return (
     <div className="portfolio">
-      <a href={props.link} className="folio-m finkara" target="_blank">
+      <a href={props.link} className={`folio-m projet ${props.classportfolio}`} target="_blank">
         <div className="project-title">{props.title}</div>
       </a>
     </div>
