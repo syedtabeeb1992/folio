@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/folio/static/css/main.07934059.css",
-    "main.js": "/folio/static/js/main.87ebb7c2.js",
+    "main.css": "/folio/static/css/main.e0303483.css",
+    "main.js": "/folio/static/js/main.af4bddc2.js",
+    "static/media/bounceweb.png": "/folio/static/media/bounceweb.acfdb2d85d8f9f8cb050.png",
+    "static/media/wickedride.png": "/folio/static/media/wickedride.e506383a93616d3a7844.png",
+    "static/media/quorier.png": "/folio/static/media/quorier.b27f47153492b5a10dc4.png",
     "static/media/finkara.png": "/folio/static/media/finkara.981589030167c72364db.png",
     "static/media/Resumene.pdf": "/folio/static/media/Resumene.c66c1179ab8292289a9b.pdf",
+    "static/media/healthcaremagic.png": "/folio/static/media/healthcaremagic.f85dfbf54f89b3b4252a.png",
     "static/media/dp.png": "/folio/static/media/dp.c65995c35b813fd30b49.png",
     "static/media/abbout.png": "/folio/static/media/abbout.0fa48a8799aa24fa3511.png",
     "static/media/frame.png": "/folio/static/media/frame.6759d3917fb78a903b0c.png",
     "index.html": "/folio/index.html",
-    "main.07934059.css.map": "/folio/static/css/main.07934059.css.map",
-    "main.87ebb7c2.js.map": "/folio/static/js/main.87ebb7c2.js.map"
+    "main.e0303483.css.map": "/folio/static/css/main.e0303483.css.map",
+    "main.af4bddc2.js.map": "/folio/static/js/main.af4bddc2.js.map"
   },
   "entrypoints": [
-    "static/css/main.07934059.css",
-    "static/js/main.87ebb7c2.js"
+    "static/css/main.e0303483.css",
+    "static/js/main.af4bddc2.js"
   ]
 }
