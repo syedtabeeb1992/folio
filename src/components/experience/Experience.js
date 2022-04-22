@@ -35,7 +35,7 @@ const Experience = () => {
               title="SENIOR FRONT-END DEVELOPER"
               secondaryTitle = "FRONT-END DEVELOPER"
               deets="Bounce"
-              expdeets="Oct 2017 - Mar 2020 "
+              expdeets="Sep 2017 - Mar 2021 "
               complogo={bounceLogo}
               classs="fl-ri"
             />
